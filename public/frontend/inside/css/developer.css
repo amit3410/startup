@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'gothic';
+	src: url('./gothic.eot');
+	src: local('gothic'), url('./gothic.woff') format('woff'), url('./gothic.ttf') format('truetype');
+}
+
+
+
+.back-btn-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back-btn-bg a:nth-child(2) input{
+    width: auto !important;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.back-btn-bg a:nth-child(1) {
+    width: auto !important;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
+.form .form-group.form-select-field button:after {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: transparent !important;
+    border: 0;
+    font-family: FontAwesome;
+    content: "\f107";
+    position: absolute;
+    right: 14px;
+    top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #676666;
+}
+
+.form .form-group.form-select-field button {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a9a9a9;
+    border-radius: 0.25rem;
+    font-size: 12px;
+}
+
+.form-check-inline.form-check-link a:hover {
+    color: #743939;
+}
+.form-check-inline.form-check-link a {
+    color: #743939;
+}
+
+.terms-gothic h5{font-family: 'gothic' !important;
+    font-size: 15px;
+    font-weight: bold;
+    color: #743939;}
+
+.terms-gothic h4{font-family: 'gothic' !important;
+font-size: 16px;
+font-weight: bold;
+color: #531919;}
+
+.terms-gothic p {
+    text-align: justify !important;font-family: 'gothic' !important;color:#743939;
+}
+
+.terms-gothic ul {
+    padding:0;
+}
+
+#termcondition .modal-header .close {
+    margin: 0;
+    top: 12px;
+    color: #531919;
+    outline: 0;
+}
+
+
+#termcondition .modal-header .modal-title{color:#F7CA5A;font-size:19px;font-weight: 400;}
+#termcondition .modal-header .close {margin:0;top:12px;color:#F7CA5A;outline:0;box-shadow:none;}
+#termcondition .terms-gothic h4 {font-family: 'gothic' !important;font-size: 16px;font-weight: 600;}
+.terms-gothic p {text-align: justify !important;font-family: 'gothic' !important;color: #743939;font-size:15px;}
+.terms-gothic ul li {text-align: justify !important;font-family: 'gothic' !important;list-style: disc;font-size:15px; margin:5px 0; color:#743939;}
+.terms-gothic ul{padding: 0 25px;}
+.term{padding-right: 35px;}
+.form-check-inline a{color:#531919;}
+
+
