@@ -499,7 +499,6 @@ class HomeController extends Controller {
                 //OTP CHECK
                 $userId = (int) $userCheckArr->user_id;
                 $this->thanksOtpConfirmation($userId);
-
                 $userMailArr = [];
                 $userArr = [];
                 $this->expireOTP($userCheckArr->otp_trans_id, $otp);
@@ -510,10 +509,7 @@ class HomeController extends Controller {
                 $userArr['is_otp_resent'] = 0;
                 $userArr['otp_verified_updatetime'] = $currentDate;
                 $userArr['is_active'] = 1;
-
-             
                 $this->userRepo->save($userArr, $userId);
-
                 //===================================
 
                 $tokenData = Crypt::decrypt($token);
